@@ -9,25 +9,32 @@ This repository contains the initial phase of a machine learning project using t
 ## 📌 Phase 1: Dataset Loading & Inspection
 
 ### Step 1: Import Required Libraries
+```bash
 import pandas as pd
 import numpy as np
+```
 
 ### Step 2: Upload Dataset in Google Colab
+```bash
 from google.colab import files
 uploaded = files.upload()
-
+```
 ### Step 3: Load Dataset
+```bash
 df = pd.read_csv("winequality (1).csv")
-
+```
 ### Step 4: Preview Dataset
+```bash
 df.head()
-
+```
 ### Step 5: Check Dataset Information
+```bash
 df.info()
-
+```
 ### Step 6: Check Dataset Shape
+```bash
 df.shape
-
+```
 ---
 
 ## 📊 Dataset Details
